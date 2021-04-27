@@ -9,13 +9,15 @@ import ErrorPage from "../pages/ErrorPage";
 
 const Page = () => {
 	return (
-		<Switch>
-			<Route path="/" exact component={HomePage} />;
-			<Route path="/products" component={ProductPage} />;
-			<Route path="/contact" component={ContactPage} />;
-			<Route path="/admin" component={AdminPage} />;
-			<Route component={ErrorPage} />;
-		</Switch>
+		<>
+			<Switch>
+				<Route path="/" exact component={HomePage} />;
+				<Route path="/products" component={ProductPage} />;
+				<Route path="/contact" component={ContactPage} />;
+				<Route path="/admin" component={AdminPage} />;
+				<Route component={ErrorPage} />;
+			</Switch>
+		</>
 	);
 };
 
