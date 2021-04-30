@@ -1,7 +1,7 @@
 import React from "react";
 import { Route, Redirect } from "react-router-dom";
 
-const permission = false;
+const permission = true;
 
 const AdminPage = () => {
 	return (
